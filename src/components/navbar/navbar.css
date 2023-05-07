@@ -2,7 +2,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 6rem;
+  padding: 2rem 6vw;
 }
 
 .gpt3__navbar-links {
@@ -104,17 +104,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 700px) {
-  nav {
-    padding: 2rem 4rem;
-  }
-}
-
 @media screen and (max-width: 550px) {
-  nav {
-    padding: 2rem;
-  }
-
   .gpt3__navbar-sign {
     display: none;
   }
