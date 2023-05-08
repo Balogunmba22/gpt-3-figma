@@ -6,7 +6,7 @@ import "./hero.css";
 export const Hero = () => {
   return (
     <header className="gpt3__header section__padding" id="home">
-      <div className="gpt3__header-content">
+      <section className="gpt3__header-content">
         <h1 className="gradient__text">
           Let&apos;s Build Something amazing with GPT-3 OpenAI
         </h1>
@@ -26,11 +26,11 @@ export const Hero = () => {
           <img src={people} />
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
-      </div>
+      </section>
 
-      <div className="gpt3__header-image">
+      <section className="gpt3__header-image">
         <img src={ai} />
-      </div>
+      </section>
     </header>
   );
 };
