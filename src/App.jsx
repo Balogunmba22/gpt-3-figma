@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-import { Cta, Brand, Navbar } from "./components";
+import { Brand, Navbar, CTA } from "./components";
 import {
   Blog,
   Features,
@@ -23,7 +23,7 @@ export default function App() {
         <WhatGPT3 />
         <Features />
         <Possibility />
-        <Cta />
+        <CTA />
         <Blog />
         <Footer />
       </div>
